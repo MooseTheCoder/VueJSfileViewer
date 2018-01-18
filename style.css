@@ -1,0 +1,15 @@
+.file{
+  border:1px solid black;
+}
+
+.folder{
+  border:1px solid blue;
+}
+
+.item-container{
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  float:left;
+  display: inline-block;
+}

@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Vue Files</title>
+    <script src="https://cdn.markamations.com/vue"></script>
+    <script src="https://cdn.markamations.com/jquery"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <button v-on:click="goBack">Back</button><br />
+      <folder v-for="folder in folders" v-bind:folder="folder"></folder>
+      <file v-for="file in files" v-bind:file="file"></file>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
