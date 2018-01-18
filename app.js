@@ -5,7 +5,7 @@ Vue.component('folder',{
 
 Vue.component('file',{
   props: ['file'],
-  template : '<div class="item-container file">{{file.name}}</div>'
+  template : '<div class="item-container file"><img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/12.File-512.png" style="width:50%; margin-top:5px;"><br /><br />{{file.name}}</div>'
 })
 
 var app = new Vue({

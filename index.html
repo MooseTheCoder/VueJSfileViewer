@@ -7,7 +7,6 @@
   </head>
   <body>
     <div id="app">
-      <button v-on:click="goBack">Back</button><br />
       <input type="text" id="loc" v-bind:value="dir" style="width:500px;" /><input type="button" v-on:click="changePath" value="Go" /><br />
       <folder v-for="folder in folders" v-bind:folder="folder"></folder>
       <file v-for="file in files" v-bind:file="file"></file>
