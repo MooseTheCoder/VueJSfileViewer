@@ -30,7 +30,7 @@ var app = new Vue({
 
 function updatePath(i){
   window.app.back = window.app.dir;
-  window.app.dir+=i;
+  window.app.dir+=i+'/';
   clear();
   procFiles();
 }
