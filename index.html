@@ -8,6 +8,7 @@
   <body>
     <div id="app">
       <button v-on:click="goBack">Back</button><br />
+      <p>{{dir}}</p>
       <folder v-for="folder in folders" v-bind:folder="folder"></folder>
       <file v-for="file in files" v-bind:file="file"></file>
     </div>
