@@ -24,6 +24,12 @@ var app = new Vue({
       window.app.dir = window.app.back;
       clear();
       procFiles();
+    },
+    changePath : function(){
+      var p = $('#loc').val();
+      window.app.dir = p;
+      clear();
+      procFiles();
     }
   }
 });
