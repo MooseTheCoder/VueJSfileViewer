@@ -19,7 +19,7 @@ if($p == 'scan'){
   $files = [];
   $folders = [];
   foreach($dir as $thing){
-    if(is_dir($_REQUEST['dir'].$thing)){
+    if(is_dir($_REQUEST['dir'].'/'.$thing)){
       $folders[]=$thing;
     }else{
       $files[]=$thing;

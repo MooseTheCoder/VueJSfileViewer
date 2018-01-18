@@ -1,6 +1,6 @@
 Vue.component('folder',{
   props: ['folder'],
-  template : '<div class="item-container folder" v-on:click="updatePath(folder.name)">{{folder.name}}</div>'
+  template : '<div class="item-container folder" v-on:click="updatePath(folder.name)"><img src="https://visualpharm.com/assets/889/Folder-595b40b65ba036ed117d40dd.svg" style="width:50%;"><br />{{folder.name}}</div>'
 })
 
 Vue.component('file',{

@@ -1,14 +1,17 @@
 .file{
-  border:1px solid black;
+  border:2px solid black;
+  text-align: center;
 }
 
 .folder{
-  border:1px solid blue;
+  border:2px solid blue;
+  cursor: pointer;
+  text-align: center;
 }
 
 .item-container{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: 5px;
   float:left;
   display: inline-block;
